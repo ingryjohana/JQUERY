@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RETO 4</title>
+</head>
+<body>
+ <p>Click me!</p>
+
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+<script>
+  
+$(document).ready(function(){
+ $("p").bind("click",function(){
+ 	$("p").text("this is a click");
+ });
+ $("p").bind("dblclick",function(){
+ 	$("p").append("</br>this is a double click");//USANDO BIND EN VEZ DE CLICK, ESPACIANDO CON BR
+ });
+
+});
+</script>
+ </body>
+</html>

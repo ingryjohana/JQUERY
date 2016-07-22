@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RETO 6</title>
+</head>
+<body>
+  <form  name='demo_form'>
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  <input type="submit" value="Submit">
+  </form>
+
+
+
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+<script>
+  
+$(document).ready(function(){
+ $("input").change(function(){
+ 	alert("you have already change");
+ });
+
+});
+</script>
+  </body>
+</html>

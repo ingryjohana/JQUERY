@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RETO 8</title>
+</head>
+<body>
+<h1>Heading1</h1>
+<h2>Heading2</h2>  
+<p>Paragraph</p>
+<button>Button</button>
+<div id="log"></div>  
+
+
+
+ <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+<script>
+  
+$(document).ready(function(){
+ $("p, button,h1, h2"). click(function (event){
+ 	$("div").html("triggered by a "+ event.target.nodeName + "element");
+ 
+ });
+});
+
+
+</script>
+</body>
+</html>

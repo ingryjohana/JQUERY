@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RETO 5</title>
+</head>
+<body>
+
+<body>
+ <form>
+   <input id="field1" type="text" value="Field 1">
+   <input id="field2" type="text" value="Field 2">
+ </form>
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> 
+<script>
+  
+$(document).ready(function(){
+ $("input").blur(function(){
+ 	alert("you have already lost your focus")
+ });
+
+});
+</script>
+</body>
+
+</html>
